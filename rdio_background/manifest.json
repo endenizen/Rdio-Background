@@ -1,0 +1,14 @@
+{
+  "name": "Rdio Background",
+  "version": "1.0.1",
+  "description": "Uses large album art for your Rdio background",
+  "content_scripts": [{
+    "js": [ "rdio_background.js" ],
+    "matches": [ "http://www.rdio.com/*" ]
+  }],
+  "icons": {
+    "32": "rdio_32.png",
+    "48": "rdio_48.png",
+    "128": "rdio_128.png"
+  }
+}
